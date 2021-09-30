@@ -1,3 +1,55 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css");
+
+.card {
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+}
+.judul {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text1 {
+  font-size: 11px;
+  color: #cbcbcb;
+}
+
+.info {
+  font-size: 17px;
+}
+
+.star {
+  color: #fbc02d;
+}
+
+.cost span {
+  color: #fb3545;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.shoe {
+  background: #dc3545;
+}
+
+.shoe:hover {
+  opacity: 8;
+}
+
+.cursor {
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 .jumbotron {
   padding-top: 5rem;
   background-color: #03cf03;
