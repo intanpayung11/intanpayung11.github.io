@@ -1,8 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css");
 
 .card {
-  border: none;
-  outline: none;
   background-color: white;
   border-radius: 20px;
   transition: transform 0.3s;
@@ -37,7 +35,7 @@
 }
 
 .shoe {
-  background: #dc3545;
+  background: #03cf03;
 }
 
 .shoe:hover {
@@ -56,7 +54,7 @@
 }
 
 #products {
-  background-color: #03cf03;
+  background-color: #fff;
 }
 
 section {
