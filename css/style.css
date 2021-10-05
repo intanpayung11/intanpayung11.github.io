@@ -121,3 +121,12 @@ a {
   height: 350px;
   position: relative;
 }
+
+.detail-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-family: calibri;
