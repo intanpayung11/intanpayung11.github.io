@@ -109,3 +109,15 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.box1 {
+  width: 250px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 25px;
+}
+.slide-img {
+  height: 350px;
+  position: relative;
+}
