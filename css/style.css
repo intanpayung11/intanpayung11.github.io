@@ -234,17 +234,7 @@ nav .menu li a:hover {
 .btns a:hover {
   background-color: #284fd1;
 }
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-footer p {
-  color: #5e5e5e;
-  margin: 10px 0px;
-  font-size: 0.9rem;
-}
+
 nav .menu-btn {
   display: none;
 }
@@ -344,12 +334,6 @@ nav .menu-btn {
   }
   .movies-box a {
     width: 65%;
-  }
-  footer {
-    justify-content: space-between;
-    padding: 0px 20px;
-    text-align: center;
-  }
 }
 @media (max-width: 440px) {
   .movies-box a,
