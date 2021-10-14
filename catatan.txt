@@ -1,0 +1,14 @@
+Prettier
+-print width = 240
+-semi = ceklis
+-tab width = 2
+
+Format on save
+- format on save = ceklis
+
+Default formatter
+- default formatter = esbenp.prettier.vscode
+
+
+Open in browser
+open in browser - install
