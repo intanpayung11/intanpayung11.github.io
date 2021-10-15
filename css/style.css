@@ -344,8 +344,8 @@ nav .menu-btn {
     font-size: 10px;
   }
   .movies-img {
-    max-width: 100%;
-    height: 75%;
+    max-width: 90%;
+    height: 65%;
   }
   .movies-box {
     flex-direction: column;
