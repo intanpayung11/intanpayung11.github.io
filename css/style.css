@@ -338,13 +338,13 @@ nav .menu-btn {
 @media (max-width: 440px) {
   .movies-box a,
   .movies-box {
-    max-width: 90px;
-    height: 175px;
+    max-width: 117px;
+    height: 195px;
     margin: 7px 2px;
     font-size: 10px;
   }
   .movies-img {
-    max-width: 90%;
+    max-width: 100%;
     height: 65%;
   }
   .movies-box {
