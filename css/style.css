@@ -338,7 +338,7 @@ nav .menu-btn {
 @media (max-width: 440px) {
   .movies-box a,
   .movies-box {
-    max-width: 117px;
+    max-width: 111px;
     height: 195px;
     margin: 10px 2px;
     font-size: 10px;
