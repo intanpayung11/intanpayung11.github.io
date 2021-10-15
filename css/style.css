@@ -333,6 +333,7 @@ nav .menu-btn {
   }
   .movies-box a {
     width: 65%;
+  }
 }
 @media (max-width: 440px) {
   .movies-box a,
