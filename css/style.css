@@ -364,6 +364,12 @@ nav .menu-btn {
     padding: 0px;
     font-size: 0.7rem;
   }
+  .slide-top img {
+    height: 250px;
+  }
+  .about {
+    font-size: 10px;
+  }
   .logo img {
     height: 30px;
   }
