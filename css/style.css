@@ -18,8 +18,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  background-color: #ffffff;
+  border: 1px solid rgba(13, 56, 36, 0.04);
+  background-color: #198754;
   position: fixed;
   left: 0;
   top: 0;
@@ -40,13 +40,13 @@ nav .menu li a {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 500;
-  color: #585858;
+  color: #fff;
   letter-spacing: 1px;
 }
 .search {
   width: 250px;
   height: 40px;
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
