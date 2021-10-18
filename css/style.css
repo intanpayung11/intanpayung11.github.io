@@ -443,4 +443,7 @@ nav .menu-btn {
     height: 60px;
     margin: 20px 20px 0px 20px;
   }
+  .tag-line {
+    font-size: 17px;
+  }
 }
