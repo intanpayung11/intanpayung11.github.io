@@ -46,7 +46,7 @@ nav .menu li a {
 .search {
   width: 250px;
   height: 40px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -345,6 +345,25 @@ nav .menu-btn {
   }
 }
 @media (max-width: 440px) {
+  .about-us {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .about-img img {
+    height: 80px;
+    margin: 20px 20px 0px 20px;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .display-4 {
+    font-size: 1.5rem;
+  }
+
   .movies-box a,
   .movies-box {
     max-width: 99px;
@@ -376,5 +395,27 @@ nav .menu-btn {
   .search {
     width: 90%;
     height: 40px;
+  }
+  .owner {
+    padding-top: 45px;
+    text-align: center;
+  }
+
+  .owner-circle {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .owner-img img {
+    height: 60px;
+    margin: 20px 20px 0px 20px;
+  }
+
+  .tag-line {
+    text-align: center;
+    padding: 20px;
   }
 }
