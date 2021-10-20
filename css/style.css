@@ -182,18 +182,7 @@ nav .menu li a:hover {
   height: 100%;
   object-fit: cover;
 }
-.movies-box a {
-  text-align: center;
-  display: block;
-  font-weight: 600;
-  display: -webkit-box;
-  max-width: 80%;
-  -webkit-line-clamp: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: #3a3a3a;
-  margin: 20px;
-}
+
 .movies-box:hover {
   transform: translateY(-10px);
   transition: all ease 0.2s;
@@ -216,25 +205,105 @@ nav .menu li a:hover {
   border-radius: 0px 0px 10px 10px;
   box-shadow: 5px 10px 30px rgb(13, 56, 36);
 }
-.btns {
+
+.la-detail-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  font-family: calibri;
+}
+.la-type {
+  display: flex;
+  flex-direction: column;
+}
+.la-type a {
+  color: #222222;
+  margin: 0px 0px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  padding-right: 5px;
+}
+.la-type span {
+  color: rgba(26, 26, 26, 0.5);
+}
+.la-price {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.btns a {
-  width: 130px;
-  height: 40px;
+  padding: 0px;
   border: none;
+  background-color: #fff;
+}
+.la-price a {
+  width: 50px;
+  height: 30px;
   outline: none;
   color: #ffffff;
-  background-color: #3963f0;
-  margin: 10px;
+  border-radius: 40px;
+  background-color: #198754;
+  margin: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
-.btns a:hover {
+.la-price a:hover {
+  background-color: #284fd1;
+}
+
+.detail-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  font-family: calibri;
+}
+.type {
+  display: flex;
+  flex-direction: column;
+}
+.type a {
+  color: #222222;
+  margin: 0px 0px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  padding-right: 5px;
+}
+.type span {
+  color: rgba(26, 26, 26, 0.5);
+}
+.price {
+  color: #333333;
+  font-weight: 600;
+  font-size: 0.9rem;
+  font-family: poppins;
+  letter-spacing: 0.2px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.btn a {
+  width: 50px;
+  height: 30px;
+  border-radius: 40px;
+  outline: none;
+  color: #ffffff;
+  background-color: #198754;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.btn a:hover {
   background-color: #284fd1;
 }
 
@@ -370,9 +439,6 @@ nav .menu-btn {
     width: 90%;
     border: 1px solid rgba(0, 0, 0, 0.2);
   }
-  .movies-box a {
-    width: 65%;
-  }
 }
 @media (max-width: 440px) {
   .about-us {
@@ -393,8 +459,6 @@ nav .menu-btn {
   .display-4 {
     font-size: 1.5rem;
   }
-
-  .movies-box a,
   .movies-box {
     max-width: 99px;
     height: 175px;
@@ -445,5 +509,69 @@ nav .menu-btn {
   }
   .tag-line {
     font-size: 16px;
+  }
+
+  .la-detail-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: calibri;
+    font-size: 0.9rem;
+  }
+
+  .detail-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    font-family: calibri;
+  }
+  .type {
+    display: flex;
+    flex-direction: column;
+  }
+  .type a {
+    color: #222222;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    padding-right: 5px;
+  }
+  .type span {
+    color: rgba(26, 26, 26, 0.5);
+  }
+  .price {
+    color: #333333;
+    font-weight: 600;
+    font-size: 0.5rem;
+    font-family: poppins;
+    letter-spacing: 0.2px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  .btn a {
+    width: 25px;
+    height: 15px;
+    border-radius: 10px;
+    outline: none;
+    color: #ffffff;
+    background-color: #198754;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+  .btn a:hover {
+    background-color: #284fd1;
   }
 }
