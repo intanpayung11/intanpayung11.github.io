@@ -213,7 +213,7 @@ nav .menu li a:hover {
   align-items: center;
   padding: 15px 15px;
   box-sizing: border-box;
-  font-family: calibri;
+  font-family: poppins;
 }
 .la-type {
   display: flex;
@@ -261,7 +261,7 @@ nav .menu li a:hover {
   align-items: center;
   padding: 15px 15px;
   box-sizing: border-box;
-  font-family: calibri;
+  font-family: poppins;
 }
 .type {
   display: flex;
@@ -529,7 +529,7 @@ nav .menu-btn {
     align-items: center;
     padding: 10px 5px;
     box-sizing: border-box;
-    font-family: calibri;
+    font-family: poppins;
   }
   .type {
     display: flex;
